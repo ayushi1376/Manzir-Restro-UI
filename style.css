@@ -8,3 +8,15 @@
 #icons1{
     font-size: large;
 }
+span{
+    color: black;
+    font-family: 'Ranchers', cursive;
+    font-size: xx-large;
+}
+#manzir{
+    font-style: italic;
+    font-family: 'Ranchers', cursive;
+}
+.reserve{
+    font-family: 'Ranchers', cursive;
+}
