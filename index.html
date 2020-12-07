@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Coffee Shop</title>
+    <title>The Food Palaza</title>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!--NAV section-->
-    <nav>
-        <div class="nav-wrapper brown lighten-1">
-        <a href="#" class="brand-logo center"><i class="material-icons">coffee</i>The Coffee Shop</a>
+<div class="navbar-fixed">
+    <nav class="nav">
+        <div class="nav-wrapper grey darken-3 ">
+        <a href="index.html" class="brand-logo center">The Food Palaza</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#">About</a></li>
@@ -29,6 +31,7 @@
         </ul>
         </div>
     </nav>
+</div>
     <ul class="sidenav" id="mobile-demo">
             <li><a href="#">Gallery</a></li>
             <li><a href="#">People</a></li>
@@ -37,6 +40,15 @@
             <li><a href="#">Reach Out</a></li>
             <li><a href="#">Coffee?</a></li>
     </ul>
+<!--NAV section End-->
+
+<!--Middle section-->
+  <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
+    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
+    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
+    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+  </div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -45,6 +57,9 @@
     <script>
         $(document).ready(function(){
             $('.sidenav').sidenav();
+        });
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true
         });
     </script>
 </body>
