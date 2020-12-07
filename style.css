@@ -2,6 +2,15 @@
     font-family: 'Ranchers', cursive;
     font-size: medium;
 }
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main{
+    flex: 1 0 auto;
+  }
 #card1{
     font-family: 'Ranchers', cursive;
 }
