@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .nav{
     font-family: 'Ranchers', cursive;
     font-size: medium;
@@ -28,4 +31,47 @@ span{
 }
 .reserve{
     font-family: 'Ranchers', cursive;
+}
+
+/*Menu.html styles*/
+.menuhead{
+    box-sizing: border-box;
+    font-family: 'Ranchers', cursive;
+    text-align: left;
+    border: 2px 2px 2px 2px solid #424242;
+    width: 290px;
+    height: 120px;
+    margin: 50px;
+    padding: 5px;
+    color:white;
+    background-color:#424242;
+    animation-name: anim-3;
+    animation-duration: 2s;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+}
+.menuhead:hover{
+  animation-play-state: running;
+}
+@keyframes anim-3{
+    0%{
+        background-color: #424242;
+        width: 350px;
+    }
+    25%{
+        background-color: #424242;
+        width: 450px;
+    }
+    50%{
+        background-color: #424242;
+        width: 550px;
+    }
+    75%{
+        background-color: #424242;
+        width: 650px;
+    }
+    100%{
+        background-color: #424242;
+        width: 750px;
+    }
 }
