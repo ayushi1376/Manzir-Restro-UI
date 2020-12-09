@@ -23,8 +23,7 @@ $(document).ready(function(){
     $('select').formSelect();
   });
 
-$('.dropdown-trigger').dropdown();
 
 $(document).ready(function(){
-  $('.scrollspy').scrollSpy();
+  $('.collapsible').collapsible();
 });
